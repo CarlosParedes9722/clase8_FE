@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&family=Roboto+Mono&family=Roboto:ital@0;1&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1024px;
+    font-family: 'Roboto', sans-serif;
+}   
+
+.encabezado{
+    display: flex;
+    width: 1024px;
+    height: 100px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #222222;
+    margin-bottom: 35px;
+}
+
+.panel-nav{
+    display: flex;
+}
+
+.item-nav{
+    list-style: none;
+    display: flex;
+}
+
+.item-nav li{
+    margin: 0.75rem;
+    align-self: center;
+}
+
+.item-nav a{
+    text-decoration: none;
+    color: #F3F3F3;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    width: 234px;
+    justify-content: space-between;
+    margin: 0.75rem;
+}
+
+.logo p{
+    display: flex;
+    justify-content: flex-end;  
+}
+
+.logo-green{
+    color: #39B24A;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.logo-red{
+    color: #FC200C;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.logo-white{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.principal{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0.75rem;
+}
+
+.delivery{
+    width: 490px;
+    height: 350px;
+    position: relative;
+}
+
+.delivery p{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.pizzas{
+    width: 490px;
+    height: 350px;
+    position: relative;
+    background-color: #FFFFFF;
+}
+
+.red{
+    color: #FC200C;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cont-pizzas{
+    display: flex;
+    justify-content: space-around;
+    height: 301.25px;
+}
+
+.podio-pizzas{
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
+}
+
+.podio-pizzas p{
+    position: absolute;
+    top:100px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.podio-pizzas ol{
+    position: absolute;
+    top:130px;
+    font-weight: 700;
+    line-height: 2em;
+}
+
+.cont-pizzas img{
+    align-self: center;
+}
+
+.pie{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 150px;
+    margin-top: 35px;
+    background-color: #222222;
+}
+
+.item-nav-pie{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0.75rem;
+}
+
+.item-nav-pie li{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.item-nav-pie a{
+    text-decoration: none;
+    color: #F3F3F3;
+}
